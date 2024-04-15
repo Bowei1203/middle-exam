@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c9c9c9;
+}
+
+header {
+    background-color: #55b1bf;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #e1f3f7;
+    font-family: Arial;
+    text-align: center;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+nav a:hover {
+    background-color: #b1b1b1;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.aside.card {
+    background-image: url(image/assets-cached.jpg);
+    background-size: 10px;
+    width: calc(50% - 20px);
+    float: none;
+    margin: 0 auto;
+}
+
+.adjust-image {
+    width: 30px;
+    height: auto;
+}
+
+.card {
+    background-image: url(image/assets-cached.jpg);
+    background-size: 10px;
+    padding: 10px;
+    margin: 20px 50px;
+    border-radius: 15px;
+    clear: both;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.odd.card {
+    background-image: url(image/assets-cached.jpg);
+    background-size: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    clear: both;
+    float: left;
+    width: calc(60% - 40px);
+}
+
+.even.card {
+    background-image: url(image/assets-cached.jpg);
+    background-size: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    clear: both;
+    float: right;
+    width: calc(60% - 40px);
+}
+
+.float-right {
+    float: right;
+    width: auto;
+    height: 150px;
+}
+
+.list01 {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.list02 {
+    list-style: lower-alpha;
+    padding-left: 20px
+}
+
+footer {
+    background-color: #0022ff;
+    color: #ffffff;
+    padding: 10px;
+}
